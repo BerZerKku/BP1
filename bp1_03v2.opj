@@ -9,7 +9,6 @@
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
-    (Board_sim_option "VHDL_flow")
     (DRC_Scope "0")
     (DRC_Action "0")
     (DRC_Create_Warnings "TRUE")
@@ -66,8 +65,8 @@
     ("Allegro Netlist Directory" "pcb")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
-    ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" "allegro\BP1_03V2.brd")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "pcb\BP1_03V2.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -78,7 +77,10 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    (Board_sim_option "VHDL_flow")
+    ("Allegro Netlist Input Board File"
+       "D:\Project\Circuit\OrCAD\lib\Template\avant_bp1.brd"))
   (Folder "Outputs"
     (File ".\bp1_03v2.drc"
       (Type "Report"))
@@ -97,6 +99,74 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (NUP2201MR6
+      (FullPartName "NUP2201MR6.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (Diod_Shottky_Dual_ComCath
+      (FullPartName "Diod_Shottky_Dual_ComCath.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R_0.25W
+      (FullPartName "R_0.25W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (STAB_3
+      (FullPartName "STAB_3.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LMC6762
+      (FullPartName "LMC6762.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (R_0.5W
+      (FullPartName "R_0.5W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MOS_n_channel_induced_1
+      (FullPartName "MOS_n_channel_induced_1.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R_0.75W
+      (FullPartName "R_0.75W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BAT54S
+      (FullPartName "BAT54S.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE/DPAK
+      (FullPartName "DIODE/DPAK.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (STAB
+      (FullPartName "STAB.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MOS_p_channel_induced_1
+      (FullPartName "MOS_p_channel_induced_1.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SUPRESSOR_POL
+      (FullPartName "SUPRESSOR_POL.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R_2W
+      (FullPartName "R_2W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (TP
       (FullPartName "TP.Normal")
       (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
@@ -107,18 +177,6 @@
       (DeviceIndex "0"))
     (CAPACITOR_POL
       (FullPartName "CAPACITOR_POL.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (DIODE
-      (FullPartName "DIODE.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (STAB
-      (FullPartName "STAB.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (LED
@@ -132,10 +190,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bp1_03v2.dsn")
-      (Path "Design Resources" ".\bp1_03v2.dsn" "TOP LEVEL")
-      (Path "Design Resources" ".\bp1_03v2.dsn" "Design Cache")
-      (Path "Outputs"))
+      (Path "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn")
+      (Path "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn"
+         "TOP LEVEL")
+      (Path "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn"
+         "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -145,9 +206,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 132 1273 138 630")
-        (Scroll "-378 90")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -24 198 1595 207 669")
+        (Scroll "354 895")
+        (Zoom "232")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP1\03V2\BP1_03V2.DSN")
       (Schematic "TOP LEVEL")
