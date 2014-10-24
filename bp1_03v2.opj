@@ -210,14 +210,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 451 0 3"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -24 198 1595 207 669")
-        (Scroll "-454 -6")
-        (Zoom "58")
+        (Scroll "354 0")
+        (Zoom "232")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP1\03V2\BP1_03V2.DSN")
       (Schematic "TOP LEVEL")
