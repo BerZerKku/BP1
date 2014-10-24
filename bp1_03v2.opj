@@ -65,7 +65,7 @@
     ("Allegro Netlist Directory" "pcb")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
-    ("Update Allegro Board" "TRUE")
+    ("Update Allegro Board" "FALSE")
     ("Allegro Netlist Output Board File" "pcb\BP1_03V2.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
@@ -99,6 +99,19 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (STAB_3
+      (FullPartName "STAB_3.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (75-401-98
+      (FullPartName "75-401-98.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LT1024A/LT
+      (FullPartName "LT1024A/LT.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\LIN_TECH.OLB")
+      (DeviceIndex "1"))
     (DIODE
       (FullPartName "DIODE.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -117,10 +130,6 @@
       (DeviceIndex "0"))
     (CAPACITOR
       (FullPartName "CAPACITOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (STAB_3
-      (FullPartName "STAB_3.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (LMC6762
@@ -201,17 +210,19 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 451 0 3"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -24 198 1595 207 669")
-        (Scroll "354 895")
-        (Zoom "232")
+        (Scroll "-454 -6")
+        (Zoom "58")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP1\03V2\BP1_03V2.DSN")
       (Schematic "TOP LEVEL")
       (Page "MAIN")))
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "Shcheblykin"))
+  (MPSSessionName "Shcheblykin")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.6\tools\capture\library\pspice"))
