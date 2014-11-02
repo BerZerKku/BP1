@@ -99,6 +99,14 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (STAB_3
       (FullPartName "STAB_3.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -126,10 +134,6 @@
       (DeviceIndex "0"))
     (R_0.25W
       (FullPartName "R_0.25W.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (LMC6762
@@ -176,10 +180,6 @@
       (FullPartName "R_2W.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (TP
-      (FullPartName "TP.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
-      (DeviceIndex "0"))
     (HWS150
       (FullPartName "HWS150.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
@@ -216,8 +216,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -24 198 1595 207 669")
-        (Scroll "354 0")
-        (Zoom "232")
+        (Scroll "1336 1973")
+        (Zoom "464")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP1\03V2\BP1_03V2.DSN")
       (Schematic "TOP LEVEL")
