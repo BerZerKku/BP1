@@ -2,8 +2,7 @@ signoise.run/
 log/
 plot/
 rep/
-*.*dat*
-*.*1*
-*.*2*
-*.*3*
+*,1*
+*,2*
+*,3*
 *autosave*.*

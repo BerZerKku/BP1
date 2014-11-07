@@ -96,7 +96,10 @@
       (DisplayName "pstxprt.dat"))
     (File ".\pcb\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File "BP1_03V2_CORE_ENG BILL OF MATERIALS.BOM"
+      (Type "Report")
+      (DisplayName "BP1_03V2_CORE_ENG BILL OF MATERIALS.BOM")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (TP
@@ -215,9 +218,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 198 1595 207 669")
-        (Scroll "1336 1973")
-        (Zoom "464")
+        (Placement "44 0 1 -1 -1 -4 -24 198 1595 207 669")
+        (Scroll "-196 57")
+        (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP1\03V2\BP1_03V2.DSN")
       (Schematic "TOP LEVEL")
