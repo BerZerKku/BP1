@@ -97,7 +97,7 @@
     (File ".\pcb\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat"))
-    (File "BP1_03V2_CORE_ENG BILL OF MATERIALS.BOM"
+    (File ".\bp1_03v2_core_eng bill of materials.bom"
       (Type "Report")
       (DisplayName "BP1_03V2_CORE_ENG BILL OF MATERIALS.BOM")))
   (Folder "Referenced Projects")
@@ -202,24 +202,22 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn")
-      (Path "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\bp1_03v2.dsn")
+      (Path "Design Resources" ".\bp1_03v2.dsn" "TOP LEVEL")
+      (Path "Design Resources" ".\bp1_03v2.dsn" "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 889"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 198 1595 207 669")
-        (Scroll "-196 57")
+        (Placement "44 2 3 -1 -1 -4 -24 198 1595 207 669")
+        (Scroll "4 399")
         (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP1\03V2\BP1_03V2.DSN")
