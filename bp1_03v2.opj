@@ -206,7 +206,7 @@
       (Path "Design Resources" ".\bp1_03v2.dsn" "TOP LEVEL")
       (Path "Design Resources" ".\bp1_03v2.dsn" "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" ".\bp1_03v2.dsn"))
+      (Select "Design Resources" ".\bp1_03v2.dsn" "TOP LEVEL" "MAIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -216,8 +216,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 198 1595 207 669")
-        (Scroll "-310 399")
+        (Placement "44 2 3 -1 -1 -4 -24 66 1463 69 561")
+        (Scroll "-310 621")
         (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP1\03V2\BP1_03V2.DSN")
