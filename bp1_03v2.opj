@@ -2,7 +2,9 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "d:\downloads\sbvm438\tps3702cx33_trans.olb"
+        (Type "Schematic Library")))
     (File ".\bp1_03v2.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
@@ -206,10 +208,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bp1_03v2.dsn")
-      (Path "Design Resources" ".\bp1_03v2.dsn" "TOP LEVEL")
+      (Path "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn")
+      (Path "Design Resources" "d:\project\circuit\bp1\03v2\bp1_03v2.dsn"
+         "TOP LEVEL")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\downloads\sbvm438\tps3702cx33_trans.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\bp1_03v2.dsn" "TOP LEVEL" "MAIN"))
+      (Select "Design Resources" "Library"
+         "d:\downloads\sbvm438\tps3702cx33_trans.olb" "TPS3702CX33_TRANS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -219,8 +226,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 66 1503 81 576")
-        (Scroll "-378 0")
+        (Placement "44 0 1 -1 -1 -4 -28 66 1503 81 576")
+        (Scroll "-284 170")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BP1\03V2\BP1_03V2.DSN")
